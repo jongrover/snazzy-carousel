@@ -1,0 +1,29 @@
+.frame {
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.tray {
+  position: relative;
+}
+
+.slide {
+  width: 800px;
+  height: 600px;
+  float: left;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 49%;
+  color: black;
+  text-shadow: 1px 1px 0px white, 
+  -1px -1px 0px white,
+  1px -1px 0px white,
+  -1px 1px 0px white;
+  opacity: 0.5;
+}
+.prev { left: 0; }
+.next { right: 0; }
